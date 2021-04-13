@@ -10,7 +10,7 @@ const Logo = props => {
 
   // If you want to use image instead of svg as a logo you can use the following code.
   // Also, remember to import the image as LogoImage here.
-  // <img className={className} src={LogoImage} alt={config.siteTitle} {...rest} />
+  <img className={className} src={LogoImage} alt={config.siteTitle} {...rest} />
 
   return (
     <IconLogo
